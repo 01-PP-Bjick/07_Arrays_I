@@ -25,13 +25,18 @@
 /* For -Schleifen als allg. Wiederholungs-Struktur */
 
 // Inkrement (untere Grenze --> obere Grenze)
-for (let i = 0; i < 10; i++) {
-    output("index i: " + i);   
-}
+// for (let i = 0; i < 10; i++) {
+//     output("index i: " + i);   
+// }
 
 // Dekrement (obere Grenze --> untere Grenze)
-for (let i = 10; i >= 0; i--) {
-    output("index i: " + i);
+// for (let i = 10; i >= 0; i--) {
+//     output("index i: " + i);
+// }
+
+// Inkrement (var. Schrittweite)
+for (let i = 0; i < 100; i+=10) {
+    output("index i: " + i);   
 }
 
 /*** 01. Funktionalität mit Einzelparametern */

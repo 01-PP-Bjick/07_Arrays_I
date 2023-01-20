@@ -138,12 +138,13 @@ function getSentenceArr2(arr) {
     let str = "";
 
     for (let i = 0; i < arr.length; i++) {
-        str = str + arr[i] + GAP;
-        // output(str);
+        if (i==arr.length -1) {
+            str=str+arr[i]+PUNCT;
+        } else {
+            str=str+arr[i]+GAP;
         }
-    
-    str = str + PUNCT
-    return str;
+        }
+        return str;
 }
 
 
